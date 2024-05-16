@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.rightdiv{
+    width: 600px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
+.form{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    position: relative;
+    top: -100px;
+    height: 40px;
+    width: 50%;
+    margin-bottom: -50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border-style:none;
+    border: 1px solid white;
+
+}
+input:hover{
+    cursor: text;
+}
+button{
+    position: relative;
+    top: -150px;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+.register{
+    background-color:#1D9BF0;
+    color: white;
+    border-style: none;
+    
+}
+
+.login{
+    background-color: transparent;
+    border-radius: 50px;
+    border-style: none;
+    border: 1px solid #1D9BF0;
+    color: #1D9BF0;
+    position: relative;
+    top: -100px;
+}
+
+.leftdiv{
+    position: relative;
+    background-color: #41a6e9;
+    height: 100vh;
+    width: 70%;
+    color: white;
+    background-image: url(twitterlogo.png);
+    background-position-x: right;
+}
+.content{
+    width: max-content;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+h1{
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    
+}
+h5{
+    position: relative;
+    top: -50px;
+}
+p{
+    position: relative;
+    left: -50px;
+}
+.logo{
+    position: relative;
+    left:-10px;
+}
+.jointoday{
+    position: relative;
+    top: -80px;
+    font-size: 40px;
+}
